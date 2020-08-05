@@ -40,7 +40,7 @@
 .home-inner {
   background-image: url(./homepage.jpg);
   background-repeat: no-repeat;
-  background-size: 1600px 900px;
+  background-size: 1450px 900px;
   height: 950px;
   top: 0;
   left: 0;
@@ -78,7 +78,7 @@ h1 {
 .who {
   background-image: url(./Who.jpg);
   background-repeat: no-repeat;
-  background-size: 1600px 900px;
+  background-size: 1450px 900px;
   height: 900px;
   top: 0;
   left: 0;
