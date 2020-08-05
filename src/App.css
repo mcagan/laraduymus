@@ -98,3 +98,28 @@ h1 {
 .navlink {
   color: black;
 }
+
+.what {
+  background-image: url(./what.jpg);
+  background-repeat: no-repeat;
+  background-size: 1450px 900px;
+  height: 900px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.pagelinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 30%;
+  width: 85%;
+  padding-left: 1.5em;
+  padding-right: 4.5em;
+  font-size: 30px;
+}
+
+.separator {
+  font-size: 60px;
+}
