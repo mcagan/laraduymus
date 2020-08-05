@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
   return (
@@ -7,9 +8,21 @@ export default function Homepage() {
         <div class="home-inner">
           <h1>LARADUYMUS</h1>
           <div class="nav">
-            <button class="navbutton">WHO</button>
-            <button class="navbutton">WHAT</button>
-            <button class="navbutton">HOW</button>
+            <button class="navbutton" onClick="">
+              <Link class="navbutton" to="/who">
+                WHO
+              </Link>
+            </button>
+            <button class="navbutton">
+              <Link class="navbutton" to="/what">
+                WHAT
+              </Link>
+            </button>
+            <button class="navbutton">
+              <Link class="navbutton" to="/how">
+                HOW
+              </Link>
+            </button>
           </div>
         </div>
       </div>

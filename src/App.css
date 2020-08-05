@@ -71,3 +71,25 @@ h1 {
   width: 7em;
   font-size: x-large;
 }
+
+.who {
+  background-image: url(./Who.jpg);
+  height: 950px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sitenav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 80%;
+  width: 20%;
+  color: black;
+  padding-top: 2em;
+}
+
+.navlink {
+  color: black;
+}
