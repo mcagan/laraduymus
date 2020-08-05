@@ -5,7 +5,7 @@ import Homepage from "./components/Homepage";
 import Who from "./components/Who";
 import What from "./components/What";
 import How from "./components/How";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (

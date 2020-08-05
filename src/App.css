@@ -39,26 +39,29 @@
 
 .home-inner {
   background-image: url(./homepage.jpg);
-  height: 1080px;
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  height: 950px;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
 h1 {
-  padding-top: 2.5em;
+  padding-top: 2em;
   padding-left: 3em;
   color: red;
   top: 0;
   left: 0;
   z-index: 2;
   font-size: xx-large;
+  text-align: left;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 80%;
+  height: 70%;
   align-items: center;
   margin-left: 20em;
   margin-right: 20em;
@@ -74,7 +77,9 @@ h1 {
 
 .who {
   background-image: url(./Who.jpg);
-  height: 950px;
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  height: 900px;
   top: 0;
   left: 0;
   z-index: 1;
@@ -84,7 +89,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: 80%;
+  margin-left: 75%;
   width: 20%;
   color: black;
   padding-top: 2em;
