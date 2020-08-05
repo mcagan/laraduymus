@@ -1,13 +1,24 @@
+@font-face {
+  font-family: "Klavika Light Caps";
+  src: url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.eot");
+  src: url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ba067c038ee926cdf9595fd750f38833.svg#Klavika Light Caps")
+      format("svg");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Klavika Light Caps";
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
